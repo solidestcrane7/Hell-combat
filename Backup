@@ -1,0 +1,609 @@
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Checking userID... ";
+ Icon = "rbxassetid://6715344821";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+-- Dummy/ gaming / Letrainee
+if game:service('Players').LocalPlayer.UserId == 1852650658  then
+    
+     local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "ID accepted ";
+ Icon = "rbxassetid://6715344821";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+--random shit 
+ver = '1.0'
+
+local Key = 'cumlord'
+function instance(instanceClass, parent, properties)
+    local instance = Instance.new(instanceClass, parent)
+
+    for property, value in pairs(properties) do
+        instance[property] = value
+    end
+
+    return instance
+end
+
+function udim2(xScale, xSize, yScale, ySize)
+    return UDim2.new(tonumber(xScale), tonumber(xSize), tonumber(yScale), tonumber(ySize))
+end
+
+function tween(object, tweenInfo, properties)
+    tweenInfo[2] = Enum.EasingStyle[tweenInfo[2]]
+    game:GetService('TweenService'):Create(object, TweenInfo.new(unpack(tweenInfo)), properties):Play()
+end
+
+function rgb(a,b,c)return Color3.fromRGB(a,b,c)end
+
+local screenGui = instance('ScreenGui', game:GetService('CoreGui'), {})
+
+local frame = instance('Frame', screenGui, {
+    Position = udim2(0.5, 0, 0.5, 0),
+    Size = udim2(0, 0, 0, 0),
+    BackgroundColor3 = rgb(50,50,50),
+    ClipsDescendants = true
+})
+
+local frameRound = instance('UICorner', frame, {
+    CornerRadius = UDim.new(1, 0)
+})
+
+local title = instance('TextLabel', frame, {
+    Position = udim2(0, 0, 0, 250),
+    Size = udim2(1, 0, 0, 50),
+    BackgroundTransparency = 1,
+    Text = 'Hello, letrainee',
+    TextSize = 40,
+    TextColor3 = Color3.fromRGB(0, 225, 0),
+    Font = Enum.Font.PermanentMarker
+})
+
+local title = instance('TextLabel', frame, {
+    Position = udim2(0, 0, 0, 50),
+    Size = udim2(1, 0, 0, 50),
+    BackgroundTransparency = 1,
+    Text = 'Aurora',
+    TextSize = 40,
+    TextColor3 = Color3.fromRGB(0, 0, 255),
+    Font = Enum.Font.PermanentMarker
+})
+
+local focused = false
+
+local textBox = instance('TextBox', frame, {
+    Size = udim2(0, 50, 0, 50),
+    Position = udim2(0.5, -50/2, 0.5, -50/2),
+    BackgroundColor3 = Color3.fromRGB(25,25,25),
+    Text = '',
+    TextSize = 30,
+    ClipsDescendants = true,
+    Font = Enum.Font.PermanentMarker,
+    TextColor3 = Color3.fromRGB(0, 225, 0)
+})
+
+local round = instance('UICorner', textBox, {
+    CornerRadius = UDim.new(1, 0)
+})
+
+textBox.Focused:Connect(function()
+    tween(textBox, {0.3, 'Sine'}, {
+        Size = udim2(0, 312, 0, 34),
+        Position = udim2(0.5, -312/2, 0.5, -32/2)
+    })
+    tween(round, {0.3, 'Sine'}, {
+        CornerRadius = UDim.new(0, 2)
+    })
+end)
+
+textBox.FocusLost:Connect(function()
+    tween(textBox, {0.3, 'Sine'}, {
+        Size = udim2(0, 50, 0, 50),
+        Position = udim2(0.5, -50/2, 0.5, -50/2)
+    })
+    tween(round, {0.3, 'Sine'}, {
+        CornerRadius = UDim.new(1, 0)
+    })
+end)
+
+tween(frame, {0.3, 'Sine'}, {
+    Size = udim2(0, 430, 0, 326),
+    Position = udim2(0.5, -430/2, 0.5, -326/2)
+})
+
+tween(frameRound, {0.3, 'Sine'}, {
+   CornerRadius = UDim.new(0.031, 5)
+})
+
+spawn(function()
+    while true do 
+        for a=0,1,0.001*15 do
+            title.TextColor3 = Color3.fromHSV(a,1,1)
+            wait()
+        end
+    end
+end)
+
+textBox.FocusLost:Connect(function() 
+    if textBox.Text == Key then
+        screenGui:Destroy()
+
+local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Checking game... ";
+ Icon = "rbxassetid://6715344821";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+  if game.PlaceId == 4291756216 then
+
+wait(1)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Game found: Madness Combat";
+ Icon = "rbxassetid://6715344821";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+wait(1)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Injected!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 10;
+ Button1 = "ok";
+ Callback = NotificationBindable;
+})
+
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Recent updates";
+ Text = "1> Started the menu  2> Added max cash options and teleports";
+
+ Duration = 10;
+ 
+ Callback = NotificationBindable;
+})
+
+
+
+
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/d/main/d", true))()
+local mainchet = library:CreateWindow("Madness Lamebat " ..ver)
+local pee = mainchet:AddFolder("Credits")
+
+pee:AddButton({text = "https://discord.gg/MmDkzFBXp6", flag = "sblasts", callback = function()
+setclipboard("https://discord.gg/MmDkzFBXp6")
+  end})
+
+pee:AddButton({text = "x0x#4663", flag = "sblasts", callback = function()
+setclipboard("x0x#4663")
+end})
+local pee = mainchet:AddFolder("Commands")
+
+
+
+
+pee:AddButton({text = "Rtx", flag = "sblasts", callback = function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
+  end}) 
+
+
+
+ pee:AddButton({text = "Max cash", flag = "sblasts", callback = function()
+    local A_1 = -10000000000
+local Event = game:GetService("ReplicatedStorage").dropMoney
+Event:FireServer(A_1)
+
+  end})
+
+
+
+
+pee:AddList({text = "Teleports", flag = "casuit", value = "Select a Area", values = {"Lobby","Shop $","Shop 2","Clothing area","Pub","Tower","Franks 4$","Church","Secret room","Boombox","A base","Realistic Grunt","P e o p l e","A.P.K spawn",}, callback = function(Tools)
+  
+      if Tools == "Lobby" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(241, 3, 132)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Lobby!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+    
+    if Tools == "Shop $" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(241, 3, 132)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Shop $!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Shop 2" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1763, 3, -1637)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Shop 2!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Clothing area" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(295, 4, 140)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Clothing area!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Pub" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(573, 4, -88)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Pub!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+
+    if Tools == "Tower" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(806, 3, -603)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Tower!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Franks 4$" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(810, 3, -381)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Franks 4$!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Church" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(870, 6, 25)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Church. You dirty sinner!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Secret room" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(766, 3, -1439)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Secret room!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+  if Tools == "Boombox" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1818, 3, -681)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Boombox!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "A base" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1337, 3, -1588)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to A base!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "Realistic Grunt" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(916, 247, -329)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Hell";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "P e o p l e" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(583, 167, -404)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = ". . .";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "A.P.K spawn" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1762, 3, 172)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to A.P.K spawn";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+  end})  
+
+
+
+
+
+local pee = mainchet:AddFolder("PvP")
+
+  pee:AddButton({text = "PvP", flag = "sblasts", callback = function()
+
+local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.PvPGui.PvPFrame.PvPButton.RemoteEvent
+Event:FireServer()
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "PvP button has been pressed";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+  end})
+  
+  pee:AddButton({text = "Aimbot", flag = "sblasts", callback = function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/solidestcrane7/Army/main/Aim%20bot"))()
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Hah noob!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+  
+  end})
+
+
+   
+   local uni = library:CreateWindow("Universal")
+    
+uni:AddBind({text = "UI Bind", key = "LeftControl", save = true, callback = function() library:Close() end})
+library:Init()
+end
+end)
+end
+end
