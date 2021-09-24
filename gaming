@@ -211,7 +211,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Update log";
- Text = "1> Rainbow car  2> more options and teleports  3> Premade charaters";
+ Text = "1> Rainbow car  2> more options and teleports  3> Premade charaters  4> Owner shouts";
 
  Duration = 10;
  
