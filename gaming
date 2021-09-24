@@ -210,8 +210,8 @@ end
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "Recent updates";
- Text = "1> Started the menu  2> Added max cash options and teleports";
+ Title = "Update log";
+ Text = "1> Rainbow car  2> more options and teleports  3> Premade charaters";
 
  Duration = 10;
  
@@ -229,6 +229,21 @@ game.StarterGui:SetCore("SendNotification",  {
  Title = "DEV MODE:";
  Text = "Inactive";
  Icon = "rbxassetid://3095086258";
+ Duration = 20;
+ Callback = NotificationBindable;
+})
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Owner shout:";
+ Text = "Hey fuckers its time to pop ass";
+ Icon = "rbxassetid://7553570112";
  Duration = 20;
  Callback = NotificationBindable;
 })
@@ -268,6 +283,10 @@ Event:FireServer(A_1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-185, -439, 56)
 
   end})
+  
+  pee:AddButton({text = "Inf Yield", flag = "sblasts", callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+end})
 
 
 
@@ -1046,4 +1065,4 @@ end)
 end
 end
 
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+
