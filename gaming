@@ -1056,7 +1056,7 @@ local pee = mainchet:AddFolder("PvP")
 
   pee:AddButton({text = "PvP", flag = "sblasts", callback = function()
 
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.PvPGui.PvPFrame.PvPButton.RemoteEvent
+local Event = game:GetService("Players")["letrainee"].PlayerGui.PvPGui.PvPFrame.PvPButton.RemoteEvent
 Event:FireServer()
 
  local function callback(Text)
@@ -1207,19 +1207,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 end
@@ -1231,19 +1231,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 end
@@ -1255,15 +1255,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 
@@ -1277,15 +1277,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["RIP_COOKIE234"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 
