@@ -1323,6 +1323,9 @@ end)
 end
 end
 
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+
+
 wait(200)
       local function callback(Text)
  if Text == "Okay!" then
@@ -1368,5 +1371,4 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 10;
  Callback = NotificationBindable;
 })
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
 
