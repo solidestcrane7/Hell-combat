@@ -1,4 +1,9 @@
+--random shit 
+ver2 = '3.2'
 
+-- Dummy/ gaming / Letrainee
+if game:service('Players').LocalPlayer.UserId == 1852650658  then
+     if game.PlaceId == 4291756216 then
  local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -14,9 +19,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
--- Dummy/ gaming / Letrainee
-if game:service('Players').LocalPlayer.UserId == 1852650658  then
-    
+
      local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -163,7 +166,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
-  if game.PlaceId == 4291756216 then
+
 
 wait(1)
 
@@ -202,6 +205,7 @@ game.StarterGui:SetCore("SendNotification",  {
 
 
 
+-- UPDATES
  local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -210,19 +214,49 @@ end
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "Recent updates";
- Text = "1> Started the menu  2> Added max cash options and teleports";
-
- Duration = 10;
+ Title = "(3.2) Recent updates (3.2)";
+ Text = "-1> Rainbow raido-                                                                                -2> Easter egg after 200 seconds-                                                                                -3> Preset audio for raido-                                                                                -4>Protects to not get banned easy-"; 
+ Duration = 20;
  
+ Callback = NotificationBindable;
+})
+--UPDATES END
+--(SPACE TEMPLATE {         
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "DEV MODE:";
+ Text = "Inactive";
+ Icon = "rbxassetid://3095086258";
+ Duration = 20;
  Callback = NotificationBindable;
 })
 
 
 
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Owner shout:";
+ Text = "The 3.1 is out! yay!";
+ Icon = "rbxassetid://7553570112";
+ Duration = 20;
+ Callback = NotificationBindable;
+})
 
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/d/main/d", true))()
-local mainchet = library:CreateWindow("Madness Lamebat " ..ver)
+local mainchet = library:CreateWindow("Madness Lamebat " ..ver2)
 local pee = mainchet:AddFolder("Credits")
 
 pee:AddButton({text = "https://discord.gg/MmDkzFBXp6", flag = "sblasts", callback = function()
@@ -248,16 +282,263 @@ loadstring(game:HttpGetAsync("https://pastebin.com/raw/Ba5A2mXj"))()
 local Event = game:GetService("ReplicatedStorage").dropMoney
 Event:FireServer(A_1)
 
+ end})
+ 
+  pee:AddButton({text = "Remove cash", flag = "sblasts", callback = function()
+    local A_1 = 10000000000
+local Event = game:GetService("ReplicatedStorage").dropMoney
+Event:FireServer(A_1)
+
+ end})
+
+ 
+
+ pee:AddButton({text = "Fast kill", flag = "sblasts", callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-185, -439, 56)
+
   end})
 
 
+pee:AddList({text = "Preset outfits ", flag = "casuit", value = "Select a Charater", values = {"The Trainee","Knight","Army man","Zombie","Riot guard","Hank",}, callback = function(Tools)
+  
+      if Tools == "The Trainee" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(280, 8, 162)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293, 8, 116)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(301, 8, 116)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296, 30, 167)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(294, 31, 118)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 154)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(320, 4, 164)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299, 4, 144)
 
 
-pee:AddList({text = "Teleports", flag = "casuit", value = "Select a Area", values = {"Lobby","Shop $","Shop 2","Clothing area","Pub","Tower","Franks 4$","Church","Secret room","Boombox","A base","Realistic Grunt","P e o p l e","A.P.K spawn",}, callback = function(Tools)
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by: letrainee";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Knight" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(270, 9, 148)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 5, 143)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(309, 8, 116)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(290, 13, 166)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(304, 4, 164)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 157)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(297, 30, 167)
+
+
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(289, 4, 138)
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by: letrainee, x0x";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Army man" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(270, 29, 150)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(273, 26, 122)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 27, 137)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(278, 30, 165)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(294, 30, 119)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 154)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 9, 148)
+
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(295, 4, 143)
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by: x0x";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Zombie" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(331, 9, 124)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(290, 13, 166)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(314, 4, 164)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 143)
+
+
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296, 4, 140)
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by: x0x";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Riot guard" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(273, 26, 123)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296, 30, 167)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(290, 13, 165)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(328, 53, 148)
+
+
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296, 4, 140)
+
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by: Madness: Project Nexus (Classic)";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+
+      if Tools == "Hank" then
+        for v = 1, 1 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 132)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(287, 30, 118)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(406, 8, -43)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(309, 4, 163)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(332, 4, 151)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(272, 26, 141)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(275, 30, 167)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(296, 4, 147)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Credits:";
+ Text = "Outfit by	Madness Combat 1";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+
+end})
+
+
+
+
+pee:AddList({text = "Teleports", flag = "casuit", value = "Select a Area", values = {"Lobby","Shop $","Shop 2","Unique shop","Clothing area","Pub","Tower","Franks 4$","Church","Secret room","Boombox","A base","Realistic Grunt","P e o p l e","Tankman",}, callback = function(Tools)
   
       if Tools == "Lobby" then
         for v = 1, 1 do
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(241, 3, 132)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(371, 3, -160)
 
  local function callback(Text)
  if Text == "Okay!" then
@@ -300,6 +581,27 @@ end
     if Tools == "Shop 2" then
         for v = 1, 1 do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1763, 3, -1637)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Shop 2!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+    if Tools == "Unique shop" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(144, 3, -1818)
 
  local function callback(Text)
  if Text == "Okay!" then
@@ -528,7 +830,75 @@ game.StarterGui:SetCore("SendNotification",  {
 	end
 end
 
-  if Tools == "A.P.K spawn" then
+  if Tools == "Tankman" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-142, 2, 66)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Tankman!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+
+  end})  
+
+pee:AddList({text = "Weapons ", flag = "casuit", value = "Select a weapon", values = {"Crossbow","Sheild","A.P.C spawn","Starter pistol",}, callback = function(Tools)
+  
+      if Tools == "Crossbow" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1912, 33, -358)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Crossbow!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Sheild" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1876, 4, -353)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Sheild!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "A.P.C spawn" then
         for v = 1, 1 do
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1762, 3, 172)
 
@@ -541,24 +911,152 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Aurora";
- Text = "Teleported to A.P.K spawn";
+ Text = "Teleported to A.P.C spawn";
  Icon = "rbxassetid://6715344821";
  Duration = 5;
  Callback = NotificationBindable;
 })
 	end
 end
-  end})  
 
+  if Tools == "Starter pistol" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(395, 6, -163)
 
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Starter pistol";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
 
+end})
 
+pee:AddList({text = "Unlocks", flag = "casuit", value = "Select a Area", values = {"Eye mask","engineer",'Tricky mask',"radio",}, callback = function(Tools)
+  
+      if Tools == "Eye mask" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1899, 76, 282)
 
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Eye mask!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "engineer" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1901, 10, -1652)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to Wasteland!";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+      if Tools == "Tricky mask" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(468, 4, -384)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Teleported to !";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+
+  if Tools == "red tricky?" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(583, 167, -404)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Yeah idk click the tricky";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+end
+end
+
+  if Tools == "Radio" then
+        for v = 1, 1 do
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(164, 4, 295)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Click music thing";
+ Icon = "rbxassetid://6715344821";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+end
+end
+
+end})
+
+ 
 local pee = mainchet:AddFolder("PvP")
 
   pee:AddButton({text = "PvP", flag = "sblasts", callback = function()
 
-local Event = game:GetService("Players")["RIP_COOKIE234"].PlayerGui.PvPGui.PvPFrame.PvPButton.RemoteEvent
+local Event = game:GetService("Players")["letrainee"].PlayerGui.PvPGui.PvPFrame.PvPButton.RemoteEvent
 Event:FireServer()
 
  local function callback(Text)
@@ -596,6 +1094,234 @@ game.StarterGui:SetCore("SendNotification",  {
 })
   
   end})
+  local mainchet = library:CreateWindow("Effects/Troll")
+local pee = mainchet:AddFolder("commands")
+
+pee:AddList({text = "Preset radio songs ", flag = "casuit", value = "Select a Song", values = {"DaHanky Madness Combat","Madness Combat Remix","Calliope",}, callback = function(Tools)
+  
+      if Tools == "DaHanky Madness Combat" then
+        for v = 1, 1 do
+      
+       local A_1 = "6750343946"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+Event:FireServer(A_1)
+
+
+
+local A_1 = "100"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+Event:FireServer(A_1)
+
+
+if true then
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Radio ";
+ Text = "Playing:  DaHanky Madness Combat (6750343946)";  
+ Icon = "rbxassetid://450074475";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+end
+
+      if Tools == "Madness Combat Remix" then
+        for v = 1, 1 do
+      
+       local A_1 = "7252779856"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+Event:FireServer(A_1)
+
+
+
+local A_1 = "100"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+Event:FireServer(A_1)
+
+
+if true then
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Radio ";
+ Text = "Playing: Madness Combat Remix (7252779856)";  
+ Icon = "rbxassetid://450074475";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+end
+
+      if Tools == "Calliope" then
+        for v = 1, 1 do
+      
+       local A_1 = "463063479"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+Event:FireServer(A_1)
+
+
+
+local A_1 = "100"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+Event:FireServer(A_1)
+
+
+if true then
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Radio ";
+ Text = "Playing: Calliope (463063479)";  
+ Icon = "rbxassetid://450074475";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+	end
+end
+end
+ 
+end})
+
+
+  pee:AddButton({text = "Rainbow car", flag = "sblasts", callback = function()
+      while true do 
+          wait()
+local A_1 = 255
+local A_2 = 0
+local A_3 = 0
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait(1)
+local A_1 = 0
+local A_2 = 255
+local A_3 = 0
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait(1)
+local A_1 = 0
+local A_2 = 0
+local A_3 = 255
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait(1)
+end
+end})
+
+  pee:AddButton({text = "Rainbow car (spaz)", flag = "sblasts", callback = function()
+      while true do 
+          wait()
+local A_1 = 255
+local A_2 = 0
+local A_3 = 0
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait()
+local A_1 = 0
+local A_2 = 255
+local A_3 = 0
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait()
+local A_1 = 0
+local A_2 = 0
+local A_3 = 255
+local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+Event:FireServer(A_1, A_2, A_3)
+wait()
+end
+end})
+
+  pee:AddButton({text = "Rainbow radio", flag = "sblasts", callback = function()
+      while true do 
+          wait()
+
+
+local A_1 = "225, 0, 0"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait(1)
+local A_1 = "0, 225, 0"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait(1)
+local A_1 = "0,0,225"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait(1)
+
+
+end
+end})
+
+  pee:AddButton({text = "Rainbow radio (spaz)", flag = "sblasts", callback = function()
+      while true do 
+          wait()
+
+
+local A_1 = "225, 0, 0"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait()
+local A_1 = "0, 225, 0"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait()
+local A_1 = "0,0,225"
+local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+Event:FireServer(A_1)
+wait()
+
+
+end
+end})
+
+  local mainchet = library:CreateWindow("Protection (Beta)")
+local pee = mainchet:AddFolder("commands")
+
+  pee:AddButton({text = "Anti-Mod join", flag = "sblasts", callback = function()
+ game.Players.PlayerAdded:Connect(function(player)
+  if player:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]" then          
+    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
+    		  end
+    		end)
+    
+    		for i,v in pairs(game.Players:GetPlayers()) do
+    			if v:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]"  then 
+    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    			end
+    		 end
+		 		  game.Players.PlayerAdded:Connect(function(player)
+  if player:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then          
+    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
+    		  end
+    		end)
+    
+    		for i,v in pairs(game.Players:GetPlayers()) do
+    			if v:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then   
+    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    			end
+    		 end
+
+end})
+
 
 
    
@@ -607,3 +1333,53 @@ end
 end)
 end
 end
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+
+
+wait(200)
+      local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Rick Astley";
+ Text = "We're no strangers to love. You know the rules and so do I A full commitment's what I'm thinking of, You wouldn't get this from any other guy!";
+ Icon = "rbxassetid://552539174";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+wait(0.5)
+  local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Rick Astley";
+ Text = "I just wanna tell you how I'm feeling, Gotta make you understand!";
+ Icon = "rbxassetid://552539174";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+wait(0.5)
+  local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Rick Astley";
+ Text = "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you!";
+ Icon = "rbxassetid://552539174";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
