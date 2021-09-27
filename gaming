@@ -1,8 +1,8 @@
 --random shit 
 ver2 = '3.2'
 
--- Dummy/ gaming / Letrainee
-if game:service('Players').LocalPlayer.UserId == 1852650658  then
+-- Dummy/ gaming / Letrainee / Ietrainee alt!
+if game:service('Players').LocalPlayer.UserId == 2010867734  then
      if game.PlaceId == 4291756216 then
  local function callback(Text)
  if Text == "Okay!" then
@@ -1103,13 +1103,13 @@ pee:AddList({text = "Preset radio songs ", flag = "casuit", value = "Select a So
         for v = 1, 1 do
       
        local A_1 = "6750343946"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1136,13 +1136,13 @@ end
         for v = 1, 1 do
       
        local A_1 = "7252779856"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1169,13 +1169,13 @@ end
         for v = 1, 1 do
       
        local A_1 = "463063479"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1207,19 +1207,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 end
@@ -1231,19 +1231,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["letrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["Ietrainee"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 end
@@ -1255,15 +1255,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 
@@ -1277,15 +1277,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["letrainee"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["Ietrainee"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 
@@ -1335,6 +1335,42 @@ end
 end
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+
+local Theywish = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+Theywish.Name = "They wish"
+Theywish.Parent = game.CoreGui
+Theywish.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+
+Frame.Parent = Theywish
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.749412835, 0, 0.0225360021, 0)
+Frame.Size = UDim2.new(0, 178, 0, 134)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.151685387, 0, -0.244844347, 0)
+ImageLabel.Size = UDim2.new(0, 178, 0, 164)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7578939706"
+
+TextLabel.Parent = Theywish
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.745185137, 0, 0.151290968, 0)
+TextLabel.Size = UDim2.new(0, 242, 0, 50)
+TextLabel.Font = Enum.Font.PermantMarker
+TextLabel.Text = "They fucking wish."
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 127)
+TextLabel.TextSize = 34.000
 
 
 wait(200)
