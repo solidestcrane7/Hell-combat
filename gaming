@@ -214,7 +214,7 @@ end
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "(3.1) Recent updates (3.1)";
+ Title = "(3.2) Recent updates (3.2)";
  Text = "-1> Rainbow raido-                                                                                -2> Easter egg after 200 seconds-                                                                                -3> Preset audio for raido-                                                                                -4>Protects to not get banned easy-"; 
  Duration = 20;
  
