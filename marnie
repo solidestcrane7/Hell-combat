@@ -1,5 +1,5 @@
 --random shit 
-ver2 = '3.1'
+ver2 = '3.2'
 
 -- marnieirl
 if game:service('Players').LocalPlayer.UserId == 241073656  then
@@ -215,7 +215,7 @@ end
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "(3.1) Recent updates (3.1)";
+ Title = "(3.2) Recent updates (3.2)";
  Text = "-1> Rainbow raido-                                                                                -2> Easter egg after 200 seconds-                                                                                -3> Preset audio for raido-                                                                                -4>Protects to not get banned easy-"; 
  Duration = 20;
  
@@ -1306,6 +1306,17 @@ local pee = mainchet:AddFolder("commands")
     
     		for i,v in pairs(game.Players:GetPlayers()) do
     			if v:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]"  then 
+    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    			end
+    		 end
+		 		  game.Players.PlayerAdded:Connect(function(player)
+  if player:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then          
+    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
+    		  end
+    		end)
+    
+    		for i,v in pairs(game.Players:GetPlayers()) do
+    			if v:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then   
     				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
     			end
     		 end
