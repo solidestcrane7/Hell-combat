@@ -1,5 +1,5 @@
 --random shit 
-ver2 = '3.2'
+ver2 = '4.3'
 
 -- Dummy/ gaming / Letrainee / Ietrainee alt!
 if game:service('Players').LocalPlayer.UserId == 2010867734  then
@@ -203,8 +203,6 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
-
-
 -- UPDATES
  local function callback(Text)
  if Text == "Okay!" then
@@ -214,14 +212,14 @@ end
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "(3.2) Recent updates (3.2)";
- Text = "-1> Rainbow raido-                                                                                -2> Easter egg after 200 seconds-                                                                                -3> Preset audio for raido-                                                                                -4>Protects to not get banned easy-"; 
+ Title = "(4.3) Recent updates (4.3)";
+ Text = "-1> Fixed protections-                                                                                -2> Public script!-                                                                                -3> Gang gang-                                                                                -4>Unlocks now work-"; 
  Duration = 20;
  
  Callback = NotificationBindable;
 })
 --UPDATES END
---(SPACE TEMPLATE {         
+--(SPACE TEMPLATE {                                                                                --})
 
  local function callback(Text)
  if Text == "Okay!" then
@@ -249,7 +247,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
  Title = "Owner shout:";
- Text = "The 3.1 is out! yay!";
+ Text = "Just wait for 4.4 ;)";
  Icon = "rbxassetid://7553570112";
  Duration = 20;
  Callback = NotificationBindable;
@@ -298,6 +296,49 @@ game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-185, -4
 
   end})
 
+pee:AddList({text = "Preset pink outfits ", flag = "casuit", value = "Select a Charater", values = {"Basic",}, callback = function(Tools)
+  
+      if Tools == "Basic" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293, 4, 138) -- Hat remover
+            wait(0.2)
+             
+game:GetService("Players").LocalPlayer.PlayerGui.CustomizationGui.MainFrame.EPUCustomizationFrame.ItemEPUEASuit.RemoteEvent:FireServer() -- Pink suit
+wait(0.2)
+game:GetService("Players").LocalPlayer.PlayerGui.CustomizationGui.MainFrame.EPUCustomizationFrame.ItemEPUEAGlasses.RemoteEvent:FireServer() -- pink glasses cool
+wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 154)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(320, 4, 163)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(274, 27, 167)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299, 4, 144)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "RISE UP!";
+ Icon = "rbxassetid://7578939706";
+ Duration = 10;
+ Button1 = "Fuck yeah";
+ Callback = NotificationBindable;
+})
+
+	end
+end
+
+end})
 
 pee:AddList({text = "Preset outfits ", flag = "casuit", value = "Select a Charater", values = {"The Trainee","Knight","Army man","Zombie","Riot guard","Hank",}, callback = function(Tools)
   
@@ -1296,32 +1337,72 @@ end})
   local mainchet = library:CreateWindow("Protection (Beta)")
 local pee = mainchet:AddFolder("commands")
 
-  pee:AddButton({text = "Anti-Mod join", flag = "sblasts", callback = function()
- game.Players.PlayerAdded:Connect(function(player)
-  if player:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]" then          
-    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
-    		  end
-    		end)
-    
-    		for i,v in pairs(game.Players:GetPlayers()) do
-    			if v:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]"  then 
-    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
-    			end
-    		 end
-		 		  game.Players.PlayerAdded:Connect(function(player)
-  if player:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then          
-    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
-    		  end
-    		end)
-    
-    		for i,v in pairs(game.Players:GetPlayers()) do
-    			if v:GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then   
-    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
-    			end
-    		 end
+  local mainchet = library:CreateWindow("Protection (Beta)")
+local pee = mainchet:AddFolder("commands")
+pee:AddButton({text = "Anti-Mod join", flag = "sblasts", callback = function()
+      local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Anti-Mod is now active!";
+ Icon = "rbxassetid://2551157547";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
 
+
+ game.Players.PlayerAdded:Connect(function(player)
+  if player:GetRoleInGroup(10541496) == "Grunt" or player:GetRoleInGroup(10541496) == "D-Core Mods" or player:GetRoleInGroup(10541496) == "Funny Blender Man" or player:GetRoleInGroup(10541496) == "PlankTheBunny" or player:GetRoleInGroup(10541496) == "VexTheManager" or player:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or player:GetRoleInGroup(10541496) == "Owner of MC[D]"  then          
+    			game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined.")
+    		  end
+    		end)
+    
+    		for i,v in pairs(game.Players:GetPlayers()) do
+    			if v:GetRoleInGroup(10541496) == "Grunt" or v:GetRoleInGroup(10541496) == "D-Core Mods" or v:GetRoleInGroup(10541496) == "Funny Blender Man" or v:GetRoleInGroup(10541496) == "PlankTheBunny" or v:GetRoleInGroup(10541496) == "VexTheManager" or v:GetRoleInGroup(10541496) == "▬▬▬▬▬▬▬▬▬▬" or v:GetRoleInGroup(10541496) == "Owner of MC[D]"  then 
+    				game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    			end
+    		end
+		 
+ 
 end})
 
+  pee:AddButton({text = "Anti-A.A.H.W join", flag = "sblasts", callback = function()
+
+      local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "Anti-A.A.H.W is now active!";
+ Icon = "rbxassetid://2551157547";
+ Duration = 5;
+ Callback = NotificationBindable;
+})
+
+ game.Players.PlayerAdded:Connect(function(player)
+  if player: GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then          
+    		game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    		  end
+    		end)
+    
+    		for i,v in pairs(game.Players:GetPlayers()) do
+    			if v:GetRoleInGroup(5151637) == "Grunt" or v:GetRoleInGroup(5151637) == "1337 Agent" or v:GetRoleInGroup(5151637) == "1337 commandos" or v:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or v:GetRoleInGroup(5151637) == "1337 Senior Agent" or v:GetRoleInGroup(5151637) == "A.T.P Soldat" or v:GetRoleInGroup(5151637) == "A.T.P. Engineer" or v:GetRoleInGroup(5151637) == "Mag Agent" or v:GetRoleInGroup(5151637) == "Crew Lieutenant "or v:GetRoleInGroup(5151637) == "Crew Commander" or v:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then 
+    				game.Players.LocalPlayer:Kick("(Anti-A.A.H.W) A HR joined the game, So to help you not get banned I kicked you from the game.")
+    			end
+    		end
+
+    
+
+ 
 
 
    
