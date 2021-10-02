@@ -64,6 +64,52 @@ game:GetService("Players").LocalPlayer.PlayerGui.CustomizationGui.MainFrame.AAHW
   end})
 
 
+pee:AddList({text = "Preset pink outfits ", flag = "casuit", value = "Select a Charater", values = {"Basic",}, callback = function(Tools)
+  
+      if Tools == "Basic" then
+        for v = 1, 1 do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(271, 4, 131) -- Hat remover
+            wait(0.2)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(293, 4, 138) -- Hat remover
+            wait(0.2)
+             
+game:GetService("Players").LocalPlayer.PlayerGui.CustomizationGui.MainFrame.EPUCustomizationFrame.ItemEPUEASuit.RemoteEvent:FireServer() -- Pink suit
+wait(0.2)
+game:GetService("Players").LocalPlayer.PlayerGui.CustomizationGui.MainFrame.EPUCustomizationFrame.ItemEPUEAGlasses.RemoteEvent:FireServer() -- pink glasses cool
+wait(0.2)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(333, 4, 154)
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(320, 4, 163)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(274, 27, 167)
+
+wait(0.2)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(299, 4, 144)
+
+ local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Aurora";
+ Text = "RISE UP!";
+ Icon = "rbxassetid://7578939706";
+ Duration = 10;
+ Button1 = "Fuck yeah";
+ Callback = NotificationBindable;
+})
+
+
+
+
+	end
+end
+
+end})
 
 
 
@@ -1077,7 +1123,7 @@ game.StarterGui:SetCore("SendNotification",  {
 
  game.Players.PlayerAdded:Connect(function(player)
   if player: GetRoleInGroup(5151637) == "Grunt" or player:GetRoleInGroup(5151637) == "1337 Agent" or player:GetRoleInGroup(5151637) == "1337 commandos" or player:GetRoleInGroup(5151637) == "1337 Senior Aspirants" or player:GetRoleInGroup(5151637) == "1337 Senior Agent" or player:GetRoleInGroup(5151637) == "A.T.P Soldat" or player:GetRoleInGroup(5151637) == "A.T.P. Engineer" or player:GetRoleInGroup(5151637) == "Mag Agent" or player:GetRoleInGroup(5151637) == "Crew Lieutenant "or player:GetRoleInGroup(5151637) == "Crew Commander" or player:GetRoleInGroup(5151637) == "A.A.H.W Organizer" then          
-    		game.Players.LocalPlayer:Kick("(Anti-mod) A moderator joined the game, So to help you not get banned I kicked you from the game.")
+    		game.Players.LocalPlayer:Kick("(Anti-A.A.H.W) A HR joined the game, So to help you not get banned I kicked you from the game.")
     		  end
     		end)
     
@@ -1100,9 +1146,10 @@ end})
     
 uni:AddBind({text = "UI Bind", key = "LeftControl", save = true, callback = function() library:Close() end})
 library:Init()
-end
-end)
+
  loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()  
+ 
+
 
 local Theywish = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -1140,50 +1187,3 @@ TextLabel.Text = "They fucking wish."
 TextLabel.TextColor3 = Color3.fromRGB(255, 0, 127)
 TextLabel.TextSize = 34.000
 
-wait(200)
-      local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Rick Astley";
- Text = "We're no strangers to love. You know the rules and so do I A full commitment's what I'm thinking of, You wouldn't get this from any other guy!";
- Icon = "rbxassetid://552539174";
- Duration = 10;
- Callback = NotificationBindable;
-})
-wait(0.5)
-  local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Rick Astley";
- Text = "I just wanna tell you how I'm feeling, Gotta make you understand!";
- Icon = "rbxassetid://552539174";
- Duration = 10;
- Callback = NotificationBindable;
-})
-wait(0.5)
-  local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "Rick Astley";
- Text = "Never gonna give you up, Never gonna let you down, Never gonna run around and desert you!";
- Icon = "rbxassetid://552539174";
- Duration = 10;
- Callback = NotificationBindable;
-})
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/solidestcrane7/protect/main/d", true))()
