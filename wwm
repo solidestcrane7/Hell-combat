@@ -217,7 +217,9 @@ game.StarterGui:SetCore("SendNotification",  {
 })
 
 print("[Aurora X]: Injected!")
-
+wait(1)
+print("[Aurora X]: Checking Version. . .")
+print("[Aurora X]: Version: 4.4")
 -- UPDATES
  local function callback(Text)
  if Text == "Okay!" then
@@ -258,7 +260,7 @@ game.StarterGui:SetCore("SendNotification",  {
 print("[Aurora X]: Checking Dev permission. . .")
 warn("[Aurora X]: Invalid Dev Permission")
 print("[Aurora X]: Checking Special permission. . .")
-warn("[Aurora X]: Invalid Special Permission")
+pring("[Aurora X]: valid Special Permission")
 
  local function callback(Text)
  if Text == "Okay!" then
