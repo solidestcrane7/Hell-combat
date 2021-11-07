@@ -1,8 +1,10 @@
+
+   
 --random shit 
 ver2 = '4.4'
-
 -- WWMWWWMWWWMWMWWWWWWW
 if game:service('Players').LocalPlayer.UserId == 2955798344  then
+
      if game.PlaceId == 4291756216 then
 
 
@@ -94,7 +96,7 @@ local title = instance('TextLabel', frame, {
     Position = udim2(0, 0, 0, 50),
     Size = udim2(1, 0, 0, 50),
     BackgroundTransparency = 1,
-    Text = 'Aurora X',
+    Text = 'Aurora',
     TextSize = 40,
     TextColor3 = Color3.fromRGB(0, 0, 255),
     Font = Enum.Font.PermanentMarker
@@ -2337,7 +2339,7 @@ wait(200)
  if Text == "Okay!" then
   print ("Answer")
 end
-end
+
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
@@ -2377,3 +2379,6 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 10;
  Callback = NotificationBindable;
 })
+end
+end
+end
