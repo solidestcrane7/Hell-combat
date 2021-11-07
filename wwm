@@ -260,7 +260,7 @@ game.StarterGui:SetCore("SendNotification",  {
 print("[Aurora X]: Checking Dev permission. . .")
 warn("[Aurora X]: Invalid Dev Permission")
 print("[Aurora X]: Checking Special permission. . .")
-pring("[Aurora X]: valid Special Permission")
+print("[Aurora X]: valid Special Permission")
 
  local function callback(Text)
  if Text == "Okay!" then
