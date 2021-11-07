@@ -2,7 +2,7 @@
 ver2 = '3.3'
 
 -- WWMWWWMWWWMWMWWWWWWW
-if game:service('Players').LocalPlayer.UserId == 2586274217  then
+if game:service('Players').LocalPlayer.UserId == 2955798344  then
      if game.PlaceId == 4291756216 then
  local function callback(Text)
  if Text == "Okay!" then
@@ -994,13 +994,13 @@ pee:AddList({text = "Preset radio songs ", flag = "casuit", value = "Select a So
         for v = 1, 1 do
       
        local A_1 = "6750343946"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1027,13 +1027,13 @@ end
         for v = 1, 1 do
       
        local A_1 = "7252779856"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1060,13 +1060,13 @@ end
         for v = 1, 1 do
       
        local A_1 = "463063479"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Communicate
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Communicate
 Event:FireServer(A_1)
 
 
 
 local A_1 = "100"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Volumize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Volumize
 Event:FireServer(A_1)
 
 
@@ -1098,19 +1098,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait(1)
 end
@@ -1122,19 +1122,19 @@ end})
 local A_1 = 255
 local A_2 = 0
 local A_3 = 0
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 255
 local A_3 = 0
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 local A_1 = 0
 local A_2 = 0
 local A_3 = 255
-local Event = game:GetService("Players")["WWMWWWMWWWMWMWWWWWWW"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
+local Event = game:GetService("Players")["124tegdfgrewgfvbrfre"].PlayerGui.CarColorGui.CarCustomizeFrame.VehicleColorization
 Event:FireServer(A_1, A_2, A_3)
 wait()
 end
@@ -1146,15 +1146,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait(1)
 
@@ -1168,15 +1168,15 @@ end})
 
 
 local A_1 = "225, 0, 0"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0, 225, 0"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 local A_1 = "0,0,225"
-local Event = game:GetService("Workspace")["WWMWWWMWWWMWMWWWWWWW"].Radio.Main.Colorize
+local Event = game:GetService("Workspace")["124tegdfgrewgfvbrfre"].Radio.Main.Colorize
 Event:FireServer(A_1)
 wait()
 
