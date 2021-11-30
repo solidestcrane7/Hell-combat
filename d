@@ -4,7 +4,7 @@
 ver2 = '5.4'
 
 
-     if game.PlaceId == 4291756216 then
+
 
 
 
